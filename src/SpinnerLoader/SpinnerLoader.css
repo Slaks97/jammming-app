@@ -1,0 +1,10 @@
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.spin-icon-img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}

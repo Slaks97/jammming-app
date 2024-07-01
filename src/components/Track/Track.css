@@ -1,0 +1,50 @@
+.track {
+    display: flex;
+    border-bottom: 1px solid rgba(256, 256, 256, 0.8);
+}
+
+.track-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 72px;
+    gap: 5px;
+}
+
+.paragraph {
+    width: 50%;
+}
+
+.track-action {
+    align-self: center;
+    cursor: pointer;
+    padding: .5rem;
+    font-size: 1.05rem;
+    transition: color .25s;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+}
+
+.track-action:hover {
+    color: rgba(265, 265, 265, .5);
+}
+
+/* .Track-information {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 72px;
+} */
+
+.track-container h3 {
+    margin-bottom: .22rem;
+}
+
+.track-container p {
+    font-size: .83rem;
+    font-weight: 300;
+    color: rgba(256, 256, 256, 0.8);
+}
